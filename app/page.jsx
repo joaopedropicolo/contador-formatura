@@ -34,7 +34,7 @@ export default function Home() {
 
   return (
     <main className="container">
-      <h1>Contador da Formatura – Victor Hugo – Turma: INFO 6A - 2025 </h1>
+      <h1>Contador da Formatura – Picolo – Turma: INFO 6A</h1>
 
       {!finished ? (
         <div className="contador">
