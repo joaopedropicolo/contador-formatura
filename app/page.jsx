@@ -46,11 +46,6 @@ export default function Home() {
       ) : (
         <h2 className="mensagem">🎉 Parabéns, chegou o grande dia da nossa formatura! 🎉</h2>
       )}
-
-      <p className="texto">
-        Depois da formatura, pretendo não morrer de fome🙏
-      </p>
-
     </main>
   );
 }
