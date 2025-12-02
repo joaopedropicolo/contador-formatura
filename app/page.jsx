@@ -51,8 +51,6 @@ export default function Home() {
         Depois da formatura, pretendo não morrer de fome🙏
       </p>
 
-      <img src="/happy-to-dumb-happy.gif" alt="Formatura" className="imagem" />
-
     </main>
   );
 }
