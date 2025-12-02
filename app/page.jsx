@@ -34,14 +34,14 @@ export default function Home() {
 
   return (
     <main className="container">
-      <h1>Contador da Formatura – Picolo – Turma: INFO 6A</h1>
+      <h1>Contador da Formatura do Picolo – Turma: INFO 6A</h1>
 
       {!finished ? (
         <div className="contador">
           <p>
-            {days}d {hours}h {minutes}m {secs}s
+            {days}dias {hours}horas {minutes}minutos {secs}segundos
           </p>
-          <span>⏳Falta pouco para meus pesadelos se tornarem realidade⏳</span>
+          <span>Falta pouco para meus pesadelos se tornarem realidade</span>
         </div>
       ) : (
         <h2 className="mensagem">🎉 Parabéns, chegou o grande dia da nossa formatura! 🎉</h2>
